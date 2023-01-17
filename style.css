@@ -202,3 +202,18 @@ h2 {
     opacity: 1;
    }
    
+   @media(min-width:200px) and (max-width:500px){
+     header{
+        width: 100%;
+        font-size: 12px;
+        margin: 2px;
+        margin-bottom: 20px;
+     }
+      #country-inp{
+        font-size: 16px;
+      }
+      .searchbar{
+          display: grid;
+        grid-template-columns: 3fr ;
+      }
+   }
